@@ -1675,22 +1675,6 @@ html {
   position: absolute;
 }
 
-.top-0 {
-  top: 0px;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.right-10 {
-  right: 2.5rem;
-}
-
 .top-3 {
   top: 0.75rem;
 }
@@ -1707,12 +1691,12 @@ html {
   left: 1.25rem;
 }
 
-.m-10 {
-  margin: 2.5rem;
+.bottom-1 {
+  bottom: 0.25rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
+.right-1 {
+  right: 0.25rem;
 }
 
 .mb-3 {
@@ -1727,36 +1711,12 @@ html {
   height: 24rem;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-72 {
-  height: 18rem;
-}
-
 .w-96 {
   width: 24rem;
 }
 
-.w-6 {
-  width: 1.5rem;
-}
-
 .items-start {
   align-items: flex-start;
-}
-
-.items-end {
-  align-items: flex-end;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.justify-end {
-  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1768,16 +1728,8 @@ html {
   background-color: hsl(var(--b1) / var(--tw-bg-opacity));
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
-}
-
-.text-end {
-  text-align: end;
 }
 
 .text-2xl {
@@ -1789,8 +1741,8 @@ html {
   font-weight: 700;
 }
 
-.font-normal {
-  font-weight: 400;
+.underline {
+  text-decoration-line: underline;
 }
 
 .shadow-xl {
@@ -2190,27 +2142,6 @@ html {
   outline-offset: 2px;
 }
 
-.btn-primary {
-  --tw-border-opacity: 1;
-  border-color: hsl(var(--p) / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--p) / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: hsl(var(--pc) / var(--tw-text-opacity));
-}
-
-.btn-primary:hover,
-    .btn-primary.btn-active {
-  --tw-border-opacity: 1;
-  border-color: hsl(var(--pf, var(--p)) / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--pf, var(--p)) / var(--tw-bg-opacity));
-}
-
-.btn-primary:focus-visible {
-  outline: 2px solid hsl(var(--p));
-}
-
 .btn.glass:hover,
     .btn.glass.btn-active {
   --glass-opacity: 25%;
@@ -2431,10 +2362,6 @@ html {
   }
 }
 
-.drawer-toggle:focus-visible ~ .drawer-content .drawer-button.btn-primary {
-  outline: 2px solid hsl(var(--p));
-}
-
 .link:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -2576,16 +2503,4 @@ html {
 
 .card-normal .card-title {
   margin-bottom: 0.75rem;
-}
-
-@media (min-width: 640px) {
-  .sm\:m-10 {
-    margin: 2.5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:m-10 {
-    margin: 2.5rem;
-  }
 }

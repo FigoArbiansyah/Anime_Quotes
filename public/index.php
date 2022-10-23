@@ -40,6 +40,7 @@ $data = json_decode($result, true);
         </div>
       </div>
     </div>
+    <p class="absolute bottom-1 right-3">Created with ☕ by <a href="https://www.instagram.com/figo_arbnsyh" class="text-dark underline">Figo</a></p>
   </section>
 
 <script type="text/javascript">
